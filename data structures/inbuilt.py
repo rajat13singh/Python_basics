@@ -1,0 +1,1 @@
+#lower,#upper,#capitalize,#swapcase,#split,#title,
