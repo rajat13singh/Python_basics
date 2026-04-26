@@ -7,5 +7,5 @@ class Factory:
 #if we call a class in any variable that variable is called OBJECT
 obj=Factory()        
 #now we can access anything from gthe lass using the onjects
-print(obj.a)
+print(obj.a) 
 obj.hello() #so multiple objects can be created like this
