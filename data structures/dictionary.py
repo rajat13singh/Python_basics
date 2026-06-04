@@ -1,4 +1,4 @@
-# What is a Dictionary?
+# What is a Dictionary? #IN OTHER LANGUAGES WE CALLED THIS HASHMAP
 # -----------------------------
 # A dictionary stores data in KEY : VALUE pairs.
 # Dictionaries are unordered, mutable, and indexed by keys.
