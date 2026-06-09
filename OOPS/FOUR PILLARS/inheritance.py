@@ -1,7 +1,7 @@
 #<<<<<<<<INHERITANCE>>>>>>
 #property or any possession that come to an heir(vaaris)
 #iheritance works between classes i.e it allows class(child class) to inherit properties and behaviours(attributes and methods) from another class (parent class)
-#benefits:- code reuabilty,organised structure,easy to maintain extend
+#benefits:- code reusabilty,organised structure,easy to maintain extend
 class Factorymumbai(): #parent class#superclass
     a="i am an attribute mentioned inside factory"
     def hello(self):

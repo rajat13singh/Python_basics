@@ -1,4 +1,5 @@
 #oops is based on concepts of objects which contains data(attributes) and code(methods)
+#basically the clas is he container whcih stores properties and 
 #class is like a blueprint or template for creating objects. 
 #think calss is a blueprint of house and it contains rooms windows etc. but doesnt build the house .an object is the actual house built usingg that blueprint
 #there are 2 types of thing inside class which attributes and methods
@@ -15,3 +16,6 @@ Animal() #this will initialized all the liness
 #but if we want to print the variables inside the class we have to call the class with variables ex Animal().species
 print(Animal().species)
 Animal().make_sound()        
+#we have two types of class :-
+#inbuilt :- all the data types in python are the inbuilt classes
+# and user defined
