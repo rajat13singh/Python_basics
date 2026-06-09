@@ -1,3 +1,4 @@
+#objects is the real world entity and it is a copy or instance of class
 # as we know class is a blueprint let say a bag factory have some requirements like material,zip etc these requirements are called (class)
 #but they dont know which material they will use or how many zips they will attach so these things will be provided according to company and these companies are called OBJECTS
 class Factory:
