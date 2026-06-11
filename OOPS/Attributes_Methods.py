@@ -7,6 +7,9 @@ class Animal:
 #methods are basically functions we created and these are three types>>>> instance
     def show(self):
         print(f"how are you,your age is {self.age}")
+
+#object method:-
+# used to acess and modify the class method        
 #class method
 #this method works itself with the class and not target the instance(object)
 # we have to use @classmethod and take its cls as its first parameter
