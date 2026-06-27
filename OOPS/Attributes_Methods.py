@@ -9,18 +9,33 @@ class Animal:
         print(f"how are you,your age is {self.age}")
 
 #object method:-
-# used to acess and modify the class method        
+# used to acess and modify the class method  
+# 
+# 
+#       
 #class method
 #this method works itself with the class and not target the instance(object)
 # we have to use @classmethod and take its cls as its first parameter
     @classmethod #its a decorator method
     def hello(cls): #here cls will not interfere the objcts loction as it targets only class location
         print("hello bro!!")  
-#static method: this doesnt access class or instance directly it also uses decorator @staticmethod , its just act as a regular fucntion placed inside a class
+#static method: this doesnt access class or instance directly it also uses decorator @staticmethod , its just act as a regular fucntion placed inside a class\
+#basically a supportive method
     @staticmethod
     def static():
         print("how are you")   
 obj=Animal(23) #giving age to animal
 obj.show()
 obj.hello() #it will not work on age like cls.age>>it will not give anyhting
-obj.static()
+obj.static()  
+
+class Bank:
+    b_name="SBI"
+    branch="jhanjeri"
+    ifdc="SBIN000"
+    @classmethod
+    def paasbook(cls):
+        print(cls.b_name,cls.branch,cls.ifdc)
+obj=Bank()
+obj.paasbook()        
+    
