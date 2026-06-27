@@ -1,9 +1,10 @@
-#its basically the parameterrs for class 
+#its basically contains the parameterrs for class and run automatically
 #a constructor is the method that runs automatically when we call a class and this construtor function will target the object location
 class Factory:
     #def __init__(self):
      #   pass ,this is the synatax for initializing here self gives the location where the parameters will be stored and parameters can be added by writing the side of self
      def __init__(self,materials,zips,pockets):
+          print(self) #it will print the location provided to objects that is self is a location provider
           self.materials=materials
           self.zips=zips
           self.pockets=pockets
